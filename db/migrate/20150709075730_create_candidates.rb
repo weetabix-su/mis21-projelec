@@ -4,7 +4,7 @@ class CreateCandidates < ActiveRecord::Migration
       t.string :first_name
       t.string :last_name
       t.text :slogan
-      t.int :position_id
+      t.integer :position_id
 
       t.timestamps
     end
