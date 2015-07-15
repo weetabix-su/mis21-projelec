@@ -16,9 +16,18 @@
 
 body{
 	background-image: url('/assets/bg.jpg');
+	padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .whitein{
 	background: #ffffff;
 	padding: 8px;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
 }
